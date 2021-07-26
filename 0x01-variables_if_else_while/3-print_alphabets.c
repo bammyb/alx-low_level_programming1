@@ -6,21 +6,21 @@
 /**
  * main - Entry point
  * *
- * prints lower case alphabet
+ * prints lower and upper case alphabet
  *
  * Return: Always 0(Success)
  * **/
 
 int main(void)
 {
-	char ch = 'a';
+	char ch = 'a', a;
 
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	for (char a = 'A'; a <= 'Z'; a++)
+	for (a = 'A'; a <= 'Z'; a++)
 	{
 		putchar(a);
 	}
