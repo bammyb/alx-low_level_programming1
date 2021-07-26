@@ -20,7 +20,7 @@ m = n % 10;
 if (m > 5)
 	printf("%s %d is %d and is greater than 5\n", a, n, m);
 else if (m == 0)
-	printf("%s %d is %d and is 0\n ", a, n, m);
+	printf("%s %d is %d and is 0\n", a, n, m);
 else if (m < 6 && m != 0)
 	printf("%s %d is %d and is less than 6 and not 0\n", a, n, m);
 return (0);
