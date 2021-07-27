@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*header goes here */
+
+
+/**
+ * main - Entry point
+ *
+ * what program is doing
+ *
+ * Return: Always 0(success)
+ **/
+
+int main(void)
+{
+	int i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		putchar(',');
+		putchar(' ');
+		i++;
+	}
+	putchar('\n');
+	return (0);
+}
