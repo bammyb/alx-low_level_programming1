@@ -2,11 +2,13 @@
 #include <stdlib.h>
 /*Header files goes here*/
 
-/*
- * main(void) - Entry Point
- * print hexdecimal single charcter
- * Return (0): always success
- */
+/**
+ * main - Entry point
+ *
+ * prints base 16 characters to console
+ *
+ * Return: Always 0(success)
+ * **/
 
 int main(void)
 {
