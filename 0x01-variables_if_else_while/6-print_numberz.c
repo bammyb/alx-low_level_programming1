@@ -13,9 +13,9 @@
 
 int main(void)
 {
-	char base = '9', num = '0';
+	int base = 58, num = 48;
 
-	for (num = '0'; num <= base; num++)
+	for (num = 48; num < base; num++)
 	{
 		putchar(num);
 	}
