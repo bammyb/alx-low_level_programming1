@@ -1,16 +1,23 @@
-#include <stdio.h>
+#include "holberton.h"
 
-/*preprocessor*/
+/**
+ * main - Entry Point
+ * @void: nothing
+ *
+ * print array character to string
+ *
+ * Return: Always 0 (success)
+ */
 
-/*this is the main entry to the program*/
 int main(void)
 {
-/*the code goes here*/
-/*decleration*/
+	char string[] = "Holberton";
+	int i;
 
-/*the original code*/
-printf("Holberton\n");
-
-return (0);
-
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(string[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
