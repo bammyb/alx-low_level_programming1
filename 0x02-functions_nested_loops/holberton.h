@@ -1,6 +1,6 @@
-#ifndef holberton
+#ifndef HOLBERTON_H
 
 int _putchar(char c)
 
-#define holberton.h
+#define HOLBERTON_H
 #endif
